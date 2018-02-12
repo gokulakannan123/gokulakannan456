@@ -1,12 +1,13 @@
 #include<stdio.h>
 int main()
 {
-int s,c,d,l;
-float ap;
-printf("enter the values for s,c,d:");
-scanf("%d%d%d",&s,&c,&d);
-l=c+((s-1)*d);
-ap=(s/2)*(c+1);
-printf("the value is :",ap);
+int a,b,c,d;
+float g;
+printf(" \n Enter The Values");
+scanf("%d\t%d\t%d\t",&a,&b,&c);
+d=b+((a-1)*c);
+g=(a/2)*(b+1);
+printf(" \n The Value Is");
+scanf("%d",&g);
 return 0;
 }
