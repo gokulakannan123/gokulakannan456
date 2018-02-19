@@ -1,26 +1,24 @@
 #include<stdio.h>
 int main()
 {
-
-	int a[10],i,j,t,n;
-  
-	scanf("%d",&n);
-	for(i=0;i<n;i++)
-	{
-		scanf("%d",&a[i]);
-	}
-	for(i=0;i<n-1;i++)
-	{
-		for(j=i+1;j<n;j++)
-		{
-			if(a[i]>a[j])
-			{
-			t=a[i];
-			a[i]=a[j];
-			a[j]=t;
-			}
-		}
-	}
-	printf("%d",a[i]);
-	return 0;
+int a[10],b,c,d;
+scanf("%d",&n);
+for(b=0;b<n;b++)
+{
+scanf("%d",&a[b]);
+}
+for(b=0;b<n-1;b++)
+{
+for(c=b+1;c<n;c++)
+{
+if(a[b]>a[c])
+{
+d=a[b];
+a[b]=a[c];
+a[c]=d;
+}
+}
+}
+printf("%d",a[b]);
+return 0;
 }
