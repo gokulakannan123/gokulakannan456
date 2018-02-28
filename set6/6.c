@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<string.h>
-int main(void) 
+void main()
 {
 char str[20];
 int n,i,flag;
@@ -30,5 +30,5 @@ else
 {
 printf("\n no");
 }
-return 0;
+getch();
 }
